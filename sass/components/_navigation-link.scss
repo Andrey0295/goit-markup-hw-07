@@ -12,7 +12,8 @@
         padding-top: 32px;
         padding-bottom: 32px;}
       .current{color: $accentColor;
-    position: relative;}  
+    position: relative;} 
+     
        .current::after {
         content: '';
         display: block;
@@ -23,7 +24,7 @@
         position: absolute;
         left: 0;
         bottom: 0;
-                          }
+          }
 
 
 
