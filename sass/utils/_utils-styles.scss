@@ -1,0 +1,45 @@
+body{
+    background-color: $whiteColor;
+    font-family: $mainFont, sans-serif;
+    margin: 0px;
+
+}
+h2{
+    font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.container{
+    width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.visually-hidden{
+    visibility: hidden;
+}
+.list{
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  .link {
+    color: $primeryTextColor;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{color: $accentColor;}
+  } 
