@@ -1,16 +1,26 @@
 @import './utils/variables';
 // @import './base/normalize';
 @import './utils/utils-styles';
+
 @import './components/page-header';
 @import './components/logo-header';
 @import './components/navigation-link';
 @import './components/contact-header';
+
 @import './components/hero-main';
+
 @import './components/modal/backdrop';
 @import './components/modal/modal-main';
 @import './components/modal/form-for-modal';
 @import './components/modal/icons-modal';
-@import './components/modal/_textarea-checkbox.scss';
+@import './components/modal/_textarea.scss';
+@import './components/modal/_checkbox';
 @import './components/modal/modal-buttons';
+
+@import './components/_advantages' ;
+@import './components/_services';
+
+@import './components/outher-team/team-section';
+@import './components/outher-team/card-styles';
 
 

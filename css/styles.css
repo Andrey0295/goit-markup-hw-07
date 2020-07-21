@@ -517,23 +517,23 @@ h3.advantage {
 }
 
 /* Секция- чем мы занимаеся */
-.service ul {
+/* .service ul {
   display: flex;
   padding-left: 0px;
-}
-.service-item + .service-item {
+} */
+/* .service-item + .service-item {
   margin-left: 30px;
-}
+} */
 figure {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.service {
+/* .service {
   margin-bottom: 94px;
 }
 .services-title {
   margin-bottom: 50px;
-}
+} */
 .service-item {
   position: relative;
 }
@@ -568,24 +568,24 @@ figure {
   background-color: rgb(47, 48, 58);
 }
 /* Секция- наша команда */
-.team {
+/* .team-title {
   margin-bottom: 50px;
-}
-.ouver-team {
+} */
+/* .ouver-team {
   background-color: var(--secondary-background-color);
   margin-bottom: 94px;
   padding-bottom: 94px;
   padding-top: 94px;
   display: flex;
-}
-.ouver-team ul {
+} */
+/* .ouver-team ul {
   display: flex;
   padding-left: 0px;
   justify-content: space-around;
-}
-.ouver-team li + li {
-  margin-left: 30px;
-}
+} */
+/* .ouver-team li + li {
+  margin-left: 30px; */
+
 .name {
   margin-top: 30px;
   color: var(--primery-text-color);
@@ -593,7 +593,7 @@ figure {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  /* identical to box height */
+  /* identical to box height
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -610,7 +610,7 @@ figure {
 
   text-align: center;
   letter-spacing: 0.03em;
-}
+} 
 .social-list {
   display: flex;
   justify-content: center;

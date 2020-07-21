@@ -1,0 +1,47 @@
+.service {
+    margin-bottom: 94px;
+
+    div{.services-title {
+        margin-bottom: 50px;}
+    }
+    ul{ display: flex;
+        padding-left: 0px;}
+  }
+  
+.service-item + .service-item {
+    margin-left: 30px;
+  }
+
+.service-item {
+    position: relative;
+
+    .services {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $whiteColor;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 370px;
+        height: 70px;
+        background-color: $servicesColor;
+      
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus{
+            color: $accentColor;
+            background-color: rgb(47, 48, 58);
+        }
+
+      } 
+}
