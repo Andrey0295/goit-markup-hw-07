@@ -1,0 +1,62 @@
+.foot-link{
+    margin-left: 69px;
+//     ul{
+//         display: flex;
+//   justify-content: center;
+//     }
+}
+// Призыв к присоеденению к соцюсетям
+.call{
+    color: $whiteColor;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: left;
+}
+// Оформление ссылок на соцюсети
+.foot-social {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 44px;
+    height: 44px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:nth-child(-n + 3){
+        margin-right: 10px;
+    }
+    &:hover,
+    &:focus{
+        background-color: $accentColor;
+    } 
+  }
+
+  .inst {
+    background-color: $footerColor;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 1px 3px rgba(0, 0, 0, 0.12);
+  }
+  .face {
+    background-color:  $footerColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .linked-in {
+    background-color:  $footerColor;
+  
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .twitt {
+    background-color:  $footerColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }

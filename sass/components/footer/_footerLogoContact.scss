@@ -1,0 +1,33 @@
+.footer-contact{
+    display: flex;
+    
+
+    ul{
+        display: flex;
+        flex-direction: column;
+
+        li{
+            margin-bottom: 10px;
+        }
+    }
+}
+// Логотип Футера
+.logo{
+    .foot-web{color:$accentColor;}
+    .foot-studio{color:$whiteColor;}
+
+}
+
+// Оформление контактов в Футере
+ul{
+    .adress-contact {
+        color: $whiteColor;
+      
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+      }
+}
+  
+

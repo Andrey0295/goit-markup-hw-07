@@ -1,12 +1,12 @@
 .site-nav {
     display: flex;
     margin-left: 85px;
-    li{margin-right: 50px;}
-    .item:last-child {
-     margin-right: 0px;
-    }
+   }
+   .site-nav li{margin-right: 50px;}
+   .item:last-child {
+    margin-right: 0px;
+   }
 
-  }
   .item{
       .link{ display: block;
         padding-top: 32px;
