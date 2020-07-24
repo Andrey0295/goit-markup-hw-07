@@ -1,0 +1,98 @@
+// Оформление формы с призывом к e-mail подписке.
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 94px;
+    width: 570px;
+    height: 86px;
+// Оформление призыва-заголовка формы.
+    .a-call {
+        margin-bottom: 20px;
+        color: $whiteColor;
+      
+        font-family: $mainFont;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;}
+  }
+
+  .email-adress{
+      position: relative;
+
+    //   Оформление Input формы.
+    input{
+        position: relative;
+        width: 358px;
+        height: 50px;
+        padding-left: 16px;
+        background-color: $footerColor;
+        color:  rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+
+    // Оформление Label 
+    label{
+        position: absolute;
+  top: 15px;
+  left: 16px;
+
+  font-family: $mainFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.03em;
+
+  color: $placeholderColor;
+    }
+
+  }
+
+ // Оформление кнопки "Подписаться".
+ .subscribe-button {
+    position: absolute;
+    top:0px;
+    left:370px;
+    width: 200px; 
+    height: 50px;
+    padding-left: 29px;
+    padding-right: 62px;
+    background-color: $accentColor;
+  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--accent-color);
+     border-radius: 4px;
+  cursor: pointer;
+  font-family: $mainFont;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: $whiteColor;
+
+  .icon-send{
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    width:24px;
+    height:24px;
+    margin-left: 10px;
+  
+    background-image: url(../images/icon-send.svg);
+  
+  
+  }
+
+
+  
+  }
+  
