@@ -1,12 +1,15 @@
+// Файл с переменнымипроекта
 @import './utils/variables';
-// @import './base/normalize';
+
+// Файл с утилитными классами
 @import './utils/utils-styles';
 
+// Файлы для Header.
 @import './components/page-header';
 @import './components/logo-header';
 @import './components/navigation-link';
 @import './components/contact-header';
-
+// файлы для секции Hero и для модального окна
 @import './components/hero-main';
 
 @import './components/modal/backdrop';
@@ -17,17 +20,37 @@
 @import './components/modal/_checkbox';
 @import './components/modal/modal-buttons';
 
+// файлы для секции "Наши преимущества".
 @import './components/_advantages' ;
+
+// Файлы для секции "Наши услуги".
 @import './components/_services';
 
+// Файлы для секции "Наши специалисты".
 @import './components/outher-team/team-section';
 @import './components/outher-team/card-styles';
 
+//Файлы для секции "Наши специалисты".
 @import './components/_outher-clients';
 
+// Файлы для Footer.
 @import './components/footer/footer-main';
 @import './components/footer/footerLogoContact';
 @import './components/footer/footerSocialLink';
+// Файл для формы на подписку в Footer.
 @import './components/footer/footerForm';
+
+// Оформление портфолио
+
+// Файл "кнопки портфолио".
+
+@import './components/portfolio/portfolioMain';
+@import './components/portfolio/portfolioButton';
+
+// Стиллизация галлереи Портфолио
+
+@import './components/portfolio/portfolioGalleryMain';
+// Оформление карточек Product с Overlay Портфолио.
+@import './components/portfolio/portfolioProduct';
 
 

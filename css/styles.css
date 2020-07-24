@@ -895,9 +895,9 @@ color: #FFFFFF;
 
 }
 /* Стиллизация страницы "Портфолио" */
-.navigation-portfolio {
+/* .navigation-portfolio {
   margin-bottom: 93px;
-}
+} */
 h1,
 h2,
 h3,
@@ -905,18 +905,18 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.gallery {
+/* .gallery {
   display: flex;
   margin-bottom: 94px;
   /* outline: 1px solid tomato; */
-}
-.gallery .portfolio-item {
+} */
+/* .gallery .portfolio-item {
   display: flex;
   justify-content: center;
-}
-.gallery h1 {
+} */
+/* .gallery h1 {
   text-align: center;
-}
+} */
 /* Кнопки портфолио */
 .portfolio-item li + li {
   margin-left: 8px;
