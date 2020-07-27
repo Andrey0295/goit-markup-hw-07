@@ -418,7 +418,7 @@ input:not(:placeholder-shown) + .form-label {
 
 .input-checkbox:checked + .icon-checkbox {
   background-color: #2196f3;
-  background-image: url(../../../images/vector.svg);
+  background-image: url(/images/vector.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-origin: border-box;
