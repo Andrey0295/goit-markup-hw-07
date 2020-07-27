@@ -8,7 +8,8 @@
    }
 
   .item{
-      .link{ display: block;
+      .link{ display: inline-flex;
+        align-items: center;
         padding-top: 32px;
         padding-bottom: 32px;}
       .current{color: $accentColor;
